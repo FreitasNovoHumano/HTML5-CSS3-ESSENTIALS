@@ -38,51 +38,6 @@ main_blog article p{
     padding-bottom: 4px;/*Espaçamento da linha*/    
 }
 
-.radius{ /*Bordas arredondadas*/
-   border-radius: 15px;
-   -moz-border-radius: 15px;
-   -webkit-border-radius: 15px;
-}
-
-.btn{
-    padding: 8px 20px;
-    font-weight: normal;
-    margin: 0 4px;
-    border-radius: 5px;
-   -moz-border-radius: 5px;
-   -webkit-border-radius: 5px;
-   text-decoration: none;
-}
-
-.btn_green{
-    background-color: #009933;
-    margin: 0 4px;
-}
-
-.btn:hover{
-    cursor: pointer;
-}
-
-.btn_green{
-    background-color: #009933;
-    color: #FFF;
-}
-
-.btrn_gren:hover{
-    background-color: #00cc66;    
-}
-
-
-.btn_red{
-    background-color: #cc0000;
-    color: #FFF;
-}
-
-.btrn_gren:hover{
-    background-color: #ff3333;    
-}
-
-
 @media(max-width: 640px){
     .main_blog article{
         flex-basis: calc(100% - 40px);
